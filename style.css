@@ -1,0 +1,119 @@
+td{
+    width:50px;
+}
+table{
+    width:400px;
+}
+* {box-sizing: border-box}
+
+
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  outline:none;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+
+.quantity{
+  
+    display:flex;
+    width:160px;
+ }
+
+.counter input,.qunatity button{
+  width:50px;
+  padding:.5em;
+  font-size:1.2rem;
+  text-align:center;
+  font-weight:900;
+  background:white;
+  border:1px solid #aaa;
+  outline:none;
+}
+.modal{
+  display:none;
+}
+
+.quantity input{
+  border-left:none;
+  border-right:none;
+  width:20%;
+  padding:.5em;
+  font-size:1.2rem;
+  text-align:center;
+  font-weight:900;
+  background:white;
+  border:1px solid #aaa;
+  outline:none;}
+.bigimg{
+  width:450px;
+  height:350px;
+}
+#reg{
+  padding:10px;
+}
+
+.images{
+  display:inline-block
+}
+
